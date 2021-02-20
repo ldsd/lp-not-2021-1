@@ -18,7 +18,63 @@
       // Declarando uma variavel com valor incial
       let y = 8.75
       alert(y)
+
+      // Declar multiplas variaveis de uma só vez
+      let a= 15, b = 4.5, c =2
+
+        // Operadores aritmeticos
+        alert(a-b)// subtração
+        alert(a * b)// Multiplicação
+        alert(a / b)// Divisão
+        alert(a + b)//Soma
+        alert(a % c)//Resto da divisão inteira
+        alert(a ** c) // Potenciação
+
+        let d = '3'// Uma string que contém um numero dentro
+
+        // Se uma string contém dentro dela um numero válido e essa string é usada
+        // Em expressões aritméticas, o JavaScript a converá em número e fara a 
+        // operação normalmente, na MAIORIA DOS CASOS
+        alert(a - d) //subtração ok
+        alert(a * d)// Multiplicação ok
+        alert(a / d)// Divisão ok
+        alert(a + d)//Soma concatenou a string 
+        alert(a % d)//Resto da divisão inteira 
+        alert(a ** d) // Potenciação Tudo para cima string
+        
+           // Concatenando strings
+
+        let msg1 = 'Bom'
+
+        let msg2 = 'dia'
+        
+        alert(msg1 + ' ' + msg2)
+        alert ('Teste'+ 1 + 2 + 3)// Ocorrerá concatenação (resultado será Teste123)
+     let e = 'batata'
+
+     alert(a - e)// Resultado é NaN = Not a Number
+     alert(a * e)// NaN
+     alert( a / e)// NaN
+     alert( a + e) // Resultado é 15Batata
+
+     // Tipos de dados
+        let teste 
+        //alert(typeof teste) // undefined
+
+        teste = 1000
+      //  alert(typeof teste)  // number
+
+        teste = 'Fatec Franca'
+        //alert(typeof teste) // string
+
+        teste = true
+        //alert(typeof teste) // boolean
+
+        test = 3.1416
+        alert(typeof teste)  // number
+        
     </script>
+
 </head>
 <body>
 
